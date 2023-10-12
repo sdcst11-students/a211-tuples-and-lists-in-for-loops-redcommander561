@@ -23,3 +23,15 @@ That name is on the list
 """
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+List = False
+name = str(input("what is your name? "))
+
+for i in nameList:
+    if i == name:
+        print("That name is on the list ")
+        List = True
+        break 
+
+else:
+    print("this name is not on the list")
+    

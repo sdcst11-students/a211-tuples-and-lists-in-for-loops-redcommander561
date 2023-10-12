@@ -8,3 +8,8 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+
+x = int(input("Pleas enter a number from 0 to 11: "))
+
+print(people[x])
